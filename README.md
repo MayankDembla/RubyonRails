@@ -23,4 +23,4 @@ Things you may want to cover:
 
 * ...
 
-# Demo to the ruby on rails 
+# Demo to the ruby on rails
