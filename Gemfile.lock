@@ -98,7 +98,10 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.9-x64-mingw32)
       mini_portile2 (~> 2.4.0)
+<<<<<<< HEAD
     pg (1.2.3-x64-mingw32)
+=======
+>>>>>>> 89a528c... Inital commit and add root route
     public_suffix (4.0.4)
     puma (4.3.3)
       nio4r (~> 2.0)
@@ -195,7 +198,10 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   jbuilder (~> 2.7)
+<<<<<<< HEAD
   pg
+=======
+>>>>>>> 89a528c... Inital commit and add root route
   puma (~> 4.1)
   rails (~> 6.0.2, >= 6.0.2.2)
   sass-rails (>= 6)
