@@ -6,11 +6,7 @@ ruby '2.6.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
 # Use sqlite3 as the database for Active Record
-<<<<<<< HEAD
-
-=======
 gem 'sqlite3', '~> 1.4'
->>>>>>> 89a528c... Inital commit and add root route
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
@@ -34,10 +30,6 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-<<<<<<< HEAD
-  gem 'sqlite3', '~> 1.4'
-=======
->>>>>>> 89a528c... Inital commit and add root route
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
@@ -54,13 +46,5 @@ group :test do
   gem 'webdrivers'
 end
 
-<<<<<<< HEAD
-
-group :production do
-   gem "pg"
-end
-
-=======
->>>>>>> 89a528c... Inital commit and add root route
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

@@ -1,11 +1,3 @@
 Rails.application.routes.draw do
-  
-<<<<<<< HEAD
-  resources :articles
-  root 'pages#home'
-  get 'about', to: 'pages#about'
-=======
-  root 'pages#home'
->>>>>>> 89a528c... Inital commit and add root route
-
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

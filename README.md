@@ -22,8 +22,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-<<<<<<< HEAD
-
-# Demo to the ruby on rails
-=======
->>>>>>> 89a528c... Inital commit and add root route
