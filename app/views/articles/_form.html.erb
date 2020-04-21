@@ -1,13 +1,5 @@
 <div class="container">
-  <% if @article.errors.any? %>
-    <h2>The following articles prevented the articles from saved</h2>  
-    <ul>
-    <% @article.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-    </ul> 
-    
-  <% end %>
+ 
 
   <!-- Scope to be article model  -->
   <!-- url is as /articles to submit on path to show all -->
@@ -15,6 +7,7 @@
 
   <div class="row justify-content-center">
    <div class="col-10">
+   <%= render 'shared/error' %> 
   <%= form_with(model: @article,class: "shadow p-3 mb-3 bg-info rounded", local: true) do |f| %>
 
     <div class="form-group row">
@@ -37,7 +30,10 @@
 
   <% end %>    
    </div>
-  <%= link_to 'Cancel and Return to articles listing', articles_path, class: "text-info" %>
+  
+   <div class="mb-3">
+    <%= link_to 'Cancel and Return to articles listing', articles_path, class: "text-info" %>
+  </div>
 
 </div>
 
