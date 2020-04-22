@@ -20,9 +20,11 @@ class ArticlesController < ApplicationController
    end
 
    def create
+    # Temporary 
     #render plain: params[:article]
     #@article = Article.new(params[:article])
-     @article = Article.new(article_param) 
+     @article = Article.new(article_param)
+     @article.user = User.first 
      #render plain: @article.inspect
      # redirect_to article_path(@article)
      if @article.save 
